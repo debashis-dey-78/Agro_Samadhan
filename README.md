@@ -70,13 +70,15 @@
 
 1. First Install and setup Anaconda latest version
 
-2. Then create a virtual environment such as "project" in the conda commandline prompt using the command
+2. Open conda command line and change the directory to the folder where you have downloaded the repository files
+
+3. Then create a virtual environment such as "project" in the conda commandline prompt using the command
 
  **"conda create --name project"**
 
  **"conda activate project"**
 
-3. Then install necessary python libraries to run the model successfully
+4. Then install necessary python libraries to run the model successfully
 
  **" pip install streamlit"**
 
