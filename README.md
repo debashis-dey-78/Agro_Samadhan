@@ -80,6 +80,8 @@
 
 4. Then install necessary python libraries to run the model successfully
 
+ **" pip install tensorflow"**
+
  **" pip install streamlit"**
 
  **" pip install Keras"**
@@ -88,6 +90,6 @@
 
  **" pip install opencv_python"**
 
-4. Finally Run the main .py app.
+5. Finally Run the main .py app.
 
  **"streamlit run main_app.py   "**
