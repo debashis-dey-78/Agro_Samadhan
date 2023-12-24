@@ -1,5 +1,5 @@
 # Agro-Samadhan
- A web-based tool for detecting and finding solutions to the  three (3) different classes of Plant Leaf Diseases Using Artificial Neural network model CNN
+ A web-based tool for detecting and finding solutions to the  three (3) different classes of Plant Leaf Diseases Using a custom Convolutional Neural Network(CNN) model.
 
 # Problem Statement
  To develop a deep learning model which can detect plant diseases from leaf images using the custom CNN architecture. The model could be used by farmers and beginners to deal with the crop health management. It will be helpful to prevent the plant diseases and crop loss.
@@ -60,6 +60,28 @@
 •	Validation Data: 48 images (20% of Training data)
 
 •	Testing Data: 60 images (20% of the whole dataset)
+
+# Model Network Architecture
+
+**This is the diagram of the customised neural network that was used to train the model on the given dataset -**
+
+![Custom CNN model architecture png](https://github.com/gigakad8811/Agro_Samadhan/assets/120395102/428caa80-f39c-408d-a78a-852722c302f6)
+
+
+
+**Fully detailed information of Layers and activation function ussed in this network architecture -**
+
+![Screenshot 2023-11-30 213714](https://github.com/gigakad8811/Agro_Samadhan/assets/120395102/3e2fda02-32c1-4005-9d4d-039e71cd0a39)
+
+
+**Activity diagram of the system workflow -**
+
+![WhatsApp Image 2023-12-01 at 01 01 21_9bebd4b3](https://github.com/gigakad8811/Agro_Samadhan/assets/120395102/6ec9980b-3a7a-48d6-93d9-f13e05c57c19)
+
+**List of accuracy and loss of the trained model -**
+
+![Screenshot 2023-11-30 213754](https://github.com/gigakad8811/Agro_Samadhan/assets/120395102/655491f4-92c4-4a3a-bce4-f4b9fbe29a39)
+
 
 # User Interface Demo
 
