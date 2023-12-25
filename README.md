@@ -2,7 +2,7 @@
  A web-based tool for detecting and finding solutions to the  three (3) different classes of Plant Leaf Diseases Using a custom Convolutional Neural Network(CNN) model.
 
 # Problem Statement
- To develop a deep learning model which can detect plant diseases from leaf images using the custom CNN architecture. The model could be used by farmers and beginners to deal with the crop health management. It will be helpful to prevent the plant diseases and crop loss.
+ To develop a deep learning model which can detect plant diseases from leaf images by utilizing the custom CNN architecture. The model could be used by farmers and beginners to deal with the crop health management. It will be helpful to prevent the plant diseases and crop loss.
 
 # Aims and objectives
 •	AGRO-SAMADHAN, a Plant Leaf Disease Detection system aims to efficiently identify and classify plant diseases to facilitate disease monitoring and surveillance, minimize crop losses, optimize resource utilization, enable sustainable farming practices, support decision making, enhance farmer knowledge and capacity, and perform early disease detection.
