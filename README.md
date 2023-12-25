@@ -6,7 +6,9 @@
 
 # Aims and objectives
 •	AGRO-SAMADHAN, a Plant Leaf Disease Detection system aims to efficiently identify and classify plant diseases to facilitate disease monitoring and surveillance, minimize crop losses, optimize resource utilization, enable sustainable farming practices, support decision making, enhance farmer knowledge and capacity, and perform early disease detection.
+
 •	The model strategically employs a minimal number of layers and neurons in fully connected layers. This design accelerates training time and ensures minimum utilization of computer resources.
+
 •	By fulfilling these goals, this system could improve agricultural productivity and reduces crop losses. It improves farmer livelihoods and ensures preventive disease control.
 # Dataset Description
 
