@@ -2,7 +2,7 @@
 import numpy as np
 import streamlit as st
 import cv2
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 # Loading the Model
 model = load_model('plant_disease.h5', compile=False)
@@ -196,11 +196,13 @@ disease_info = {
 }
 
 # Setting Title of App
-st.title("AGRO-SAMADHAN(A Plant Disease Detection Tool)")
-st.markdown("Upload an image of the plant leaf")
+st.markdown('<p style="font-size:24px;"><b>Plant Disease Detection of 3 class(A Plant Disease Detection Tool)</b></p>', unsafe_allow_html=True)
+st.markdown('<p style="font-size:18px;"><b>Upload an image of the plant leaf</b></p>', unsafe_allow_html=True)
+
+st.markdown('<p style="font-size:18px;">Choose an image...</p>', unsafe_allow_html=True)
 
 # Uploading the Plant image
-plant_image = st.file_uploader("Choose an image...", type="jpg")
+plant_image = st.file_uploader("", type=["jpeg", "jpg", "png"])
 submit = st.button('Predict')
 
 # On predict button click
@@ -216,6 +218,7 @@ if submit:
 
         # Resizing the image
         opencv_image = cv2.resize(opencv_image, (640, 640))
+        opencv_image = opencv_image / 255.0  # Normalization
 
         # Convert image to 4 Dimension
         opencv_image.shape = (1, 640, 640, 3)
