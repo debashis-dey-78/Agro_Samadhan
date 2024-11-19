@@ -5,7 +5,7 @@ import cv2
 from keras.models import load_model
 
 # Loading the Model
-model = load_model('D:\OneDrive - gigakadsolution\Documents\plant disease try/plant_disease.h5', compile=False)
+model = load_model('plant_disease.h5', compile=False)
 
 # Name of Classes
 CLASS_NAMES = ['Broad_beans_Urahi-Cercospora_leaf_spot', 'Ridge_gourd_Zika-Alternaria_Leaf_Spot', 'Tomato-Leaf_Miner']
