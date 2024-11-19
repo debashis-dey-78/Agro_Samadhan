@@ -220,8 +220,8 @@ if submit:
         opencv_image = cv2.resize(opencv_image, (640, 640))
         opencv_image = opencv_image / 255.0  # Normalization
 
-        # Convert image to 4 Dimension
-        opencv_image.shape = (1, 640, 640, 3)
+        # Convert image to 4 Dimensions
+        opencv_image = np.expand_dims(opencv_image, axis=0)
 
         # Make Prediction
         Y_pred = model.predict(opencv_image)
